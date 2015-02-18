@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JEFF.Portal", "JEFF.Portal\JEFF.Portal.csproj", "{574FB9DE-E910-4432-907B-04D2E8E628C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JEFF.GreenHouseController", "JEFF.GreenHouseController\JEFF.GreenHouseController.csproj", "{70BB450F-F4FF-4971-938B-76985BF75EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JEFF.Models", "JEFF.Models\JEFF.Models.csproj", "{1B9E075A-323A-488D-87B3-5A61C616DD22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JEFF.DataAccess", "JEFF.DataAccess\JEFF.DataAccess.csproj", "{7D6E4D8E-85D1-416A-8694-C6177F5ACF44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JEFF.Dto", "JEFF.Dto\JEFF.Dto.csproj", "{BCEF9203-2234-418E-94FF-A00658A44C01}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "JEFF.Cloud", "JEFF.Cloud\JEFF.Cloud.ccproj", "{EC057C24-968F-4851-838D-A822747DA99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pebble Files", "Pebble Files", "{5D695A0C-D6A5-407B-95B9-F0102847A0CF}"
+	ProjectSection(SolutionItems) = preProject
+		Pebble FIles\appinfo.json = Pebble FIles\appinfo.json
+		Pebble FIles\jshintrc = Pebble FIles\jshintrc
+		Pebble FIles\wscript = Pebble FIles\wscript
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A05B747-AB05-4E7A-A40C-CBD1F6842DFC}"
+	ProjectSection(SolutionItems) = preProject
+		Pebble FIles\src\main.c = Pebble FIles\src\main.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{94642DE7-7429-4968-A3CA-D764CB9D01E9}"
+	ProjectSection(SolutionItems) = preProject
+		Pebble FIles\src\js\pebble-js-app.js = Pebble FIles\src\js\pebble-js-app.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{0AF82E43-22AC-45AF-806C-A5C9F7CB9A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{C75B4FE9-79AF-4D93-AE27-527BD6E1A428}"
+	ProjectSection(SolutionItems) = preProject
+		Pebble FIles\resources\fonts\perfect-dos-vga.ttf = Pebble FIles\resources\fonts\perfect-dos-vga.ttf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{AC61D5D9-6DD3-4626-B405-281D88333DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Pebble FIles\resources\images\background.png = Pebble FIles\resources\images\background.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574FB9DE-E910-4432-907B-04D2E8E628C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574FB9DE-E910-4432-907B-04D2E8E628C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574FB9DE-E910-4432-907B-04D2E8E628C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574FB9DE-E910-4432-907B-04D2E8E628C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BB450F-F4FF-4971-938B-76985BF75EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BB450F-F4FF-4971-938B-76985BF75EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BB450F-F4FF-4971-938B-76985BF75EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BB450F-F4FF-4971-938B-76985BF75EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9E075A-323A-488D-87B3-5A61C616DD22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9E075A-323A-488D-87B3-5A61C616DD22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9E075A-323A-488D-87B3-5A61C616DD22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9E075A-323A-488D-87B3-5A61C616DD22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6E4D8E-85D1-416A-8694-C6177F5ACF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6E4D8E-85D1-416A-8694-C6177F5ACF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6E4D8E-85D1-416A-8694-C6177F5ACF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6E4D8E-85D1-416A-8694-C6177F5ACF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEF9203-2234-418E-94FF-A00658A44C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEF9203-2234-418E-94FF-A00658A44C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEF9203-2234-418E-94FF-A00658A44C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEF9203-2234-418E-94FF-A00658A44C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC057C24-968F-4851-838D-A822747DA99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC057C24-968F-4851-838D-A822747DA99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC057C24-968F-4851-838D-A822747DA99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC057C24-968F-4851-838D-A822747DA99E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A05B747-AB05-4E7A-A40C-CBD1F6842DFC} = {5D695A0C-D6A5-407B-95B9-F0102847A0CF}
+		{94642DE7-7429-4968-A3CA-D764CB9D01E9} = {7A05B747-AB05-4E7A-A40C-CBD1F6842DFC}
+		{0AF82E43-22AC-45AF-806C-A5C9F7CB9A7E} = {5D695A0C-D6A5-407B-95B9-F0102847A0CF}
+		{C75B4FE9-79AF-4D93-AE27-527BD6E1A428} = {0AF82E43-22AC-45AF-806C-A5C9F7CB9A7E}
+		{AC61D5D9-6DD3-4626-B405-281D88333DD0} = {0AF82E43-22AC-45AF-806C-A5C9F7CB9A7E}
+	EndGlobalSection
+EndGlobal
