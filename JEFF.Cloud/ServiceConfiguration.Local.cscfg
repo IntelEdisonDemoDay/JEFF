@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="IoT_Test" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="GreenHouseController">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <!-- TODO: Set your Mongo DB Connection String -->
+      <Setting name="IOT-TEST" value="" />
+      <!-- TODO: Set your Azure Connection String -->
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-01-24T23:59:59.0000000+00:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <!-- TODO: Set your Azure certficates -->
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="..." thumbprintAlgorithm="..." />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

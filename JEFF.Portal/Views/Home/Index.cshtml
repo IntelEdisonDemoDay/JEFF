@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section scripts{
+    <script src="~/Scripts/flot/jquery.flot.min.js"></script>
+    <script src="~/Scripts/flot/jquery.flot.resize.min.js"></script>
+    <script src="~/Scripts/flot/jquery.flot.time.min.js"></script>
+    <script src="~/Scripts/flot/jquery.flot.navigate.min.js"></script>
+    <script src="~/Scripts/flot/jquery.flot.pie.min.js"></script>
+    <script src="~/Scripts/timezone/timezone.js"></script>
+
+    <script src="~/Scripts/__api.js"></script>
+    <script src="~/Scripts/__index.js"></script>
+
+}
+
+<script type="text/javascript">
+    window.BASE_API_ADDRESS = '@HtmlExtensions.ResolveServerUrl(VirtualPathUtility.ToAbsolute("~/"),false)';
+</script>
+
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <h2>
+            <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Temperature
+        </h2>
+        <div id="temp1-stats-chart-legend" style="display:table; margin:auto; padding-top:5px"></div>
+        <div id="temp1-stats-chart"></div>
+    </div>
+    <div class="col-md-6">
+        <h2><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span> Humidity</h2>
+        <div id="hum1-stats-chart-legend" style="display:table; margin:auto; padding-top:5px"></div>
+        <div id="hum1-stats-chart"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <h2><span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Light</h2>
+        <div id="light1-stats-chart-legend" style="display:table; margin:auto; padding-top:5px"></div>
+        <div id="light1-stats-chart"></div>
+    </div>
+</div>
