@@ -1,5 +1,7 @@
 ## About JEFF
 
+For more information about JEFF, please visit http://www.jeff-it.co/.
+
 On the weekend of 23rd to 25th January 2015, I participated to the "Seedhack IoT" (http://www.seedhack.com/), a hackaton on the INternet of Things organized by Seedcamp @ Google Campus London.
 
 This code was developed during the hackaton to implement the brain of JEFF, our "digital butler" project.
@@ -22,6 +24,7 @@ All dependencies should be available as NuGet packages, however you will need to
 
 ## References
 
+http://www.jeff-it.co/
 http://www.seedhack.com/
 http://smartables.io/
 https://cloudpebble.net/
